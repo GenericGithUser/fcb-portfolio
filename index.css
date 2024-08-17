@@ -1,0 +1,57 @@
+*{
+	font-family: "Roboto", sans-serif;
+}
+h1, p{
+	font-family: "Montserrat", sans-serif;
+}
+
+#profile{
+	height: 240px;
+	width: 300px;
+	border-radius: 25%;
+	border: 5px solid lightgreen;
+	box-shadow: gold 0 0 8px 3px;
+}
+
+#neko{
+	margin-top: 30px;
+	width: 200px;
+}
+
+body{
+	background-color: #FFFBD3 !important;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23CAFAC4' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+	background-attachment: fixed;
+
+}
+footer{
+	background-color: lightgreen;
+	display: flex;
+	justify-content: center;
+	align-items:center ;
+	padding: 10px;
+}
+.fa-brands{
+	font-size: 25px;
+	color: darkgoldenrod;
+	margin: 0 10px 0 10px;
+	transition: 0.6s;
+}
+.fa-solid{
+	font-size: 25px;
+	color: darkgoldenrod;
+	margin: 0 10px 0 10px;
+	transition: 0.6s;
+}
+
+.fa-solid:hover, .fa-brands:hover{
+	color: lightskyblue;
+}
+
+#landing{
+	display: flex;
+	height: 85vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
